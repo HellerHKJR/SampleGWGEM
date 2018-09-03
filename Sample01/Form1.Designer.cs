@@ -218,6 +218,7 @@
             this.Controls.Add(this.ExitButton);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.LockStateGroupBox.ResumeLayout(false);
             this.LockStateGroupBox.PerformLayout();
             this.groupBox2.ResumeLayout(false);
